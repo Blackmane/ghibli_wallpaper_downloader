@@ -10,6 +10,11 @@ More info from Studio Ghibli:
 
 ## This tool
 
+From terminal, just run command:
+```bash
+python downloader.py 
+```
+
 Less than 3 minutes to download 1178 wallpapers (~321 mb).
 Internet connection dependent.
 
