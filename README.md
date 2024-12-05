@@ -4,9 +4,10 @@ A very simple script to download wallpapers from the Ghibli's collection.
 
 More info from Studio Ghibli: 
 
-* [First release 18/09/2020](https://www.ghibli.jp/info/013344/)
-* [Last release 18/12/2020](https://www.ghibli.jp/info/013409/)
-
+* [News 18/09/2020](https://www.ghibli.jp/info/013344/)
+* [News 18/12/2020](https://www.ghibli.jp/info/013409/)
+* [News 04/08/2023](https://www.ghibli.jp/info/013762/)
+* [News 18/08/2023](https://www.ghibli.jp/info/013772/)
 
 ## This tool
 

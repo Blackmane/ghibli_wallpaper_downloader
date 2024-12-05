@@ -53,6 +53,8 @@ galleriesData = [
     ["ponyo", "ponyo", 50],
     ["ged", "ged", 50],
     ["chihiro", "chihiro", 50],
+    ["aya", "aya", 50],
+    ["kimitachi", "kimitachi", 26],
 ]
 
 def downloadGallery(gallery):
