@@ -9,6 +9,8 @@ More info from Studio Ghibli:
 * [News 04/08/2023](https://www.ghibli.jp/info/013762/)
 * [News 18/08/2023](https://www.ghibli.jp/info/013772/)
 
+* [Web conference wallpapers 03/02/2022](https://www.ghibli.jp/info/013251/)
+
 ## This tool
 
 From terminal, just run command:

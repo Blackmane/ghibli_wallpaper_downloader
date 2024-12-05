@@ -19,7 +19,6 @@
 
 import os.path
 import urllib.request
-import sys
 from threading import Thread
 
 # Url example:
@@ -65,6 +64,51 @@ def downloadGallery(gallery):
             print (url)
             urllib.request.urlretrieve(url, filename)
 
+# Url example:
+# http://www.ghibli.jp/images/park1.jpg
+
+wallpaperData = [
+    # image name
+    "umi1",
+    "yamada1",
+    "kaze1",
+    "red1",
+    "omohide1",
+    "on-your-mark1",
+    "ghiblies1",
+    "gedo1",
+    "buta1",
+    "ponpoko1",
+    "neko1",
+    "marnie1",
+    "totoro1",
+    "majyo1",
+    "mimi1",
+    "kokuriko1",
+    "nausicaa1",
+    "laputa1",
+    "mononoke1",
+    "chihiro1",
+    "howl1",
+    "ponyo1",
+    "arietty1",
+    "kaguya1",
+    "omake1",
+    "omake2",
+    "park1",
+    "park2",
+]
+
+def downloadWallpaper():
+    basepath = "https://www.ghibli.jp/images/"
+    for name in wallpaperData:
+        filename = name + '.jpg'
+        if not os.path.exists(filename):
+            url = basepath + name + '.jpg'
+            print (url)
+            urllib.request.urlretrieve(url, filename)
+
 for gallery in galleriesData:
     Thread(target=downloadGallery, args=[gallery]).start()
+    downloadWallpaper()
 
